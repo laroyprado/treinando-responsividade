@@ -1,0 +1,27 @@
+:root {
+    background: #ECE9FD;
+
+
+    --color-primary: #090039;
+    --color-primary-opacity: rgba(10, 0, 57, 0.64);
+    --color-secundary: #7158EF;
+
+    font-family: 'Epilogue', sans-serif;
+    font-size: 62.5%;
+}
+
+
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    padding: 6.0rem 2.3rem 6.6rem 2.3rem;
+    font-size: 1.6rem;
+}
+

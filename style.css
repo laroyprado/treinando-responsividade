@@ -1,0 +1,92 @@
+main {
+    max-width: 33.0rem;
+    margin: 0 auto;
+}
+
+
+.ourjob {
+    color: #7158EF;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+}
+
+h1 {
+    margin-top: 1.7rem;
+    font-size: 4.0rem;
+    line-height: 4.8rem;
+    font-weight: 800;
+    color: #090039;
+}
+
+
+.ideia {
+    margin-top: 1.5rem;
+    margin-bottom: 3.2rem;
+    color: rgba(10, 0, 57, 0.64);
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+}
+
+a {
+
+    margin-top: 3.2rem;
+    color: #090039;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 3.2rem;
+}
+
+ul {
+    margin-top: 7.7rem;
+}
+
+ul li {
+    margin-bottom: 4.8rem;
+    max-width: 25.7rem;
+
+    color: #090039;
+
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+
+    display: flex;
+    gap: 3.8rem;
+
+}
+
+ul li span {
+    font-weight: 800;
+    font-size: 7.2rem;
+    line-height: 8.0rem;
+
+    letter-spacing: -2px;
+
+}
+
+@media (min-width :700px) {
+    body {
+        padding: 8.0rem;
+
+    }
+
+    main {
+        display: flex;
+        gap: 11.6rem;
+        max-width: 102.1rem;
+    }
+
+    .container {
+        width: 48.5rem;
+    }
+
+    ul li {
+        align-items: center;
+        max-width: 42.1rem;
+
+    }
+}
